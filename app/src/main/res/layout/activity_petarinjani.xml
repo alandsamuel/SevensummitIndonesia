@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context="com.aradea.informasi.sevensummitindonesia.petarinjani">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="9dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="27dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Peta Rute pendakian \n gunung rinjani"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/petabinaiya"
+            android:layout_width="match_parent"
+            android:layout_height="312dp"
+            android:layout_weight="1.54"
+            app:srcCompat="@drawable/petarinjani" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="106dp"
+            android:layout_height="86dp"
+            app:srcCompat="@drawable/logo" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
